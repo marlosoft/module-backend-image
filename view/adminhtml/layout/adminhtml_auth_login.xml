@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <update handle="admin_login" />
+  <body>
+    <referenceBlock name="logo">
+      <arguments>
+        <argument name="show_part_size" xsi:type="string">logo</argument>
+      </arguments>
+    </referenceBlock>
+  </body>
+</page>

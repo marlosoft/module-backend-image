@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+  <system>
+    <section id="admin">
+      <group id="backend_image" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+        <label>Admin Backend Image</label>
+        <field id="logo" translate="label comment" type="image" sortOrder="100" showInDefault="1" showInWebsite="0" showInStore="0">
+          <label>Login Logo Image</label>
+          <backend_model>Magento\Config\Model\Config\Backend\Image</backend_model>
+          <upload_dir config="system/filesystem/media" scope_info="1">admin/backend_image</upload_dir>
+          <base_url type="media" scope_info="1">admin/backend_image</base_url>
+        </field>
+        <field id="icon" translate="label comment" type="image" sortOrder="100" showInDefault="1" showInWebsite="0" showInStore="0">
+          <label>Admin Icon Image</label>
+          <backend_model>Magento\Config\Model\Config\Backend\Image</backend_model>
+          <upload_dir config="system/filesystem/media" scope_info="1">admin/backend_image</upload_dir>
+          <base_url type="media" scope_info="1">admin/backend_image</base_url>
+        </field>
+      </group>
+    </section>
+  </system>
+</config>

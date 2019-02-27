@@ -1,0 +1,9 @@
+div.menu-wrapper a.logo {
+  padding: 1.5rem 0 !important;
+  height: auto !important;
+}
+
+div.menu-wrapper a.logo img.logo-img {
+  height: auto !important;
+  width: 4rem !important;
+}
